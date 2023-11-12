@@ -1,0 +1,33 @@
+{
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "editor.wordWrap": "on",
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "scm.diffDecorations": "gutter",
+    "scm.diffDecorationsGutterVisibility": "hover",
+    "workbench.panel.defaultLocation": "right",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "svelte.enable-ts-plugin": true,
+    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "workbench.colorTheme": "GitHub Dark",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tabCompletion": "on",
+    "editor.insertSpaces": false,
+    "files.trimTrailingWhitespace": true,
+    "git.ignoreRebaseWarning": true,
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.rulers": [80]
+}
