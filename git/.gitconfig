@@ -1,0 +1,14 @@
+[user]
+	name = Sofya Tuymedova
+	email = stuymedova@gmail.com
+[core]
+	excludesfile = /Users/stuymedova/.gitignore_global
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
+[rebase]
+	missingCommitsCheck = warn
+	abbreviateCommands = true
