@@ -18,7 +18,7 @@
         "javascript": "javascriptreact"
     },
     "editor.quickSuggestions": {
-        "strings": true
+        "strings": true,
     },
     "workbench.colorTheme": "GitHub Dark",
     "security.workspace.trust.untrustedFiles": "open",
@@ -29,5 +29,14 @@
     "prettier.requireConfig": true,
     "editor.formatOnSave": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "editor.rulers": [80]
+    "editor.rulers": [
+        80, 120
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.enabled": false
 }
