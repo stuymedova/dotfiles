@@ -12,3 +12,7 @@
 [rebase]
 	missingCommitsCheck = warn
 	abbreviateCommands = true
+[grep]
+	patternType = perl
+[merge]
+	ff = false
