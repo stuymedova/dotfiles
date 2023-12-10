@@ -12,13 +12,13 @@
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "svelte.enable-ts-plugin": true,
-    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
     "editor.quickSuggestions": {
-        "strings": true,
+        "strings": true
     },
     "workbench.colorTheme": "GitHub Dark",
     "security.workspace.trust.untrustedFiles": "open",
