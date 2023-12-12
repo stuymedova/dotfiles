@@ -24,6 +24,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.tabCompletion": "on",
     "editor.insertSpaces": false,
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.ignoreRebaseWarning": true,
     "prettier.requireConfig": true,
