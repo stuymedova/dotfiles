@@ -52,8 +52,6 @@
     "scm.diffDecorations": "gutter",
     "scm.diffDecorationsGutterVisibility": "hover",
     "security.workspace.trust.untrustedFiles": "open",
-    "svelte.enable-ts-plugin": true,
-    "prettier.requireConfig": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "workbench.colorTheme": "GitHub Dark",
     "workbench.startupEditor": "none",
