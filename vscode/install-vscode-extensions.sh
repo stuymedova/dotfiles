@@ -6,19 +6,18 @@
 # Visual Studio Code :: Package list
 pkglist=(
 	dbaeumer.vscode-eslint
-	denoland.vscode-deno
 	eamodio.gitlens
-	esbenp.prettier-vscode
-	GitHub.github-vscode-theme
-	GitHub.remotehub
+ 	github.github-vscode-theme
+	github.remotehub
+	gitlab.gitlab-workflow
 	github.vscode-github-actions
-	GitHub.vscode-pull-request-github
+	github.vscode-pull-request-github
+	jock.svg
 	ms-vscode.azure-repos
 	ms-vscode.remote-repositories
-	Orta.vscode-jest
-	svelte.svelte-vscode
-	VisualStudioExptTeam.intellicode-api-usage-examples
-	VisualStudioExptTeam.vscodeintellicode
+ 	streetsidesoftware.code-spell-checker
+	visualstudioexptteam.intellicode-api-usage-examples
+	visualstudioexptteam.vscodeintellicode
 )
 
 for i in ${pkglist[@]}; do
