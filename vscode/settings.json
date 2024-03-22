@@ -1,43 +1,61 @@
 {
-    "files.autoSave": "afterDelay",
-    "git.confirmSync": false,
-    "editor.wordWrap": "on",
-    "workbench.startupEditor": "none",
-    "explorer.confirmDelete": false,
-    "scm.diffDecorations": "gutter",
-    "scm.diffDecorationsGutterVisibility": "hover",
-    "workbench.panel.defaultLocation": "right",
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "svelte.enable-ts-plugin": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "editor.quickSuggestions": {
-        "strings": true
-    },
-    "workbench.colorTheme": "GitHub Dark",
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.tabCompletion": "on",
-    "editor.insertSpaces": false,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "git.ignoreRebaseWarning": true,
-    "prettier.requireConfig": true,
-    "editor.formatOnSave": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "editor.rulers": [
-        80, 120
-    ],
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "cSpell.language": "en,ru",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.tabCompletion": "on",
+    "editor.insertSpaces": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "eslint.format.enable": true,
+    "editor.wordWrap": "on",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
+    "gitlens.graph.minimap.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.hovers.enabled": false
+    "gitlens.hovers.enabled": false,
+    "scm.diffDecorations": "gutter",
+    "scm.diffDecorationsGutterVisibility": "hover",
+    "security.workspace.trust.untrustedFiles": "open",
+    "svelte.enable-ts-plugin": true,
+    "prettier.requireConfig": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.startupEditor": "none",
+    "workbench.panel.defaultLocation": "right"
 }
