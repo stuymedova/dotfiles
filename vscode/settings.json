@@ -46,7 +46,6 @@
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
     "gitlens.codeLens.enabled": false,
-    "gitlens.currentLine.enabled": false,
     "gitlens.graph.minimap.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.hovers.enabled": false,
