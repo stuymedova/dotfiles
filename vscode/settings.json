@@ -42,6 +42,7 @@
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
     "gitlens.codeLens.enabled": false,
